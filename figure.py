@@ -4,8 +4,8 @@
 
 figure 모듈은 그림과 관련된 함수 및 클래스를 제공하는 모듈입니다.
 line class를 이용하여 선의 길이를 설정/참조를 수행하며
-area_square, area_circle, area_regular_triangle 함수로
-각각 정사각형, 원, 정삼각형의 넓이를 반환합니다.
+area_rectangle, area_ellipse, area_right_triangle 함수로
+각각 직사각형, 타원, 직각삼각형의 넓이를 반환합니다.
 """
 
 import math
@@ -15,7 +15,7 @@ class line:
     클래스에 대한 설명은 class의 선언 바로 아래에 위치합니다.
 
     line class는 선의 길이에 대해 저장하고 있는 클래스입니다.
-    변수로는 외부에서 접근 불가능한 __length가 있으며,
+    변수로는 외부에서 접근 불가능한 __width와 __height 있으며,
     해당 변수를 수정하고 접근하기 위해
     set_length와, get_length 메소드를 제공합니다.
     """
